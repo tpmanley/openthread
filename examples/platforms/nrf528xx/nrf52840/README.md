@@ -495,7 +495,7 @@ nRF52840 port extends [OpenThread Diagnostics Module][DIAG].
 
 You can read about all the features [here][nRFDIAG].
 
-[DIAG]: ./../../../src/core/diags/README.md
+[DIAG]: ./../../../../src/core/diags/README.md
 [nRFDIAG]: ./../DIAG.md
 
 ## Radio driver documentation

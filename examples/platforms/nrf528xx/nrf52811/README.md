@@ -349,7 +349,7 @@ nRF52811 supports [OpenThread Diagnostics Module][DIAG], with some additional fe
 
 For more information, see [nRF Diag command reference][nRFDIAG].
 
-[DIAG]: ./../../../src/core/diags/README.md
+[DIAG]: ./../../../../src/core/diags/README.md
 [nRFDIAG]: ./../DIAG.md
 
 ## Radio driver documentation
