@@ -128,7 +128,7 @@ Alternatively Simplicity Commander provides a graphical interface for J-Link Com
 
 ```bash
 $ cd <path-to-openthread>/output/efr32mg12/bin
-$ arm-none-eabi-objcopy -O ihex ot-cli-ftd ot-cli-ftd.ihex
+$ arm-none-eabi-objcopy -O s37 ot-cli-ftd ot-cli-ftd.s37
 $ <path-to-simplicity-studio>/developer/adapter_packs/commander/commander
 ```
 
@@ -140,7 +140,7 @@ Click the Flash button located under the Browse... button.
 
 ## Run the example with EFR32MG12 boards
 1. Flash two EFR32 boards with the `CLI example` firmware (as shown above).
-2. Open terminal to first device `/dev/ttyACM0` (serial port settings: 115200 8-N-1).
+2. Open terminal to first device `/dev/ttyACM0` (serial port settings: 115200 8-N-1), for example using `screen` (`screen /dev/ttyACM0 115200`).
    Type `help` for a list of commands.
 
    ```bash
